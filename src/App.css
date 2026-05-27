@@ -175,3 +175,61 @@ nav button {
     gap: 18px;
   }
 }
+.shop-section {
+  background: #f6d5e6;
+  padding: 90px 40px;
+  text-align: center;
+}
+
+.section-kicker {
+  color: #d81b72;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.shop-section h2 {
+  font-size: 64px;
+  margin-bottom: 60px;
+  font-weight: 900;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 22px;
+}
+
+.category-card {
+  background: #fff7e8;
+  border: 3px dashed #bdb7aa;
+  border-radius: 28px;
+  padding: 44px 20px;
+  transition: transform 0.2s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-6px);
+}
+
+.stitch-icon {
+  font-size: 70px;
+  color: #e91e73;
+  margin-bottom: 22px;
+}
+
+.category-card h3 {
+  font-size: 28px;
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .shop-section h2 {
+    font-size: 42px;
+  }
+}
